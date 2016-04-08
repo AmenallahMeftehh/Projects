@@ -1,0 +1,14 @@
+.principale{
+background:url('../images/the_setup.jpg') no-repeat center fixed;
+background-size: cover;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+li a{
+font-weight: bold;
+font-family: sans-serif;
+color : black;
+font-size: 18px;
+}
