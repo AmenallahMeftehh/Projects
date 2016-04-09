@@ -2,25 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Notes</title>
+    <title>Streaming</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
   </head>
-<body class="principale">
+<body class="principale img-responsive">
  <div class="container">
     <nav class="navbar navbar-collapse" >
       <ul class="nav nav-tabs" >
         <li role="presentation" class="active"><a href="#"> Acceuil</a></li>
-        <li role="presentation"><a href="#"> Notes</a></li>
-        <li role="presentation"><a href="#">Taches</a></li>
-        <li role="presentation"><a href="#">Projets</a></li>
-        <li role="presentation"><a href="#">Contact</a></li>
+        <li role="presentation"><a href="#">FILMS</a></li>
+        <li role="presentation"><a href="#">SÉRIES TV</a></li>
+        <li role="presentation"><a href="#">MONGA</a></li>
+        <li role="presentation"><a href="#">ÉMISSIONS</a></li>
       </ul>
     </nav>
 
    <form >
+  <aside>
+NOM : <input type="text-primary" name="name" value=""required>
+PRENOM : <input type="text-primary" name="prenom" value=""required>
+EMAIL : <input type="email" name="email" value="" required>
+PASSWORD : <input type="password" name="name" value="" required> <br><br>
+<button type="submit"  class="btn btn-primary">Se Connecter</button>
+</aside>
 
    </form>
  </div>
+ <!--angular -->
+ <script  src="angular.min.js"></script>
+ <script src="angular-route.js"></script>
+ <script  src="app.js"></script>
 </body>
 </html>

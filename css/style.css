@@ -1,14 +1,21 @@
 .principale{
-background:url('../images/the_setup.jpg') no-repeat center fixed;
+background:url('../images/film-loop.gif') no-repeat center fixed;
 background-size: cover;
 background-repeat: no-repeat;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+
 }
 li a{
 font-weight: bold;
 font-family: sans-serif;
 color : black;
 font-size: 18px;
+}
+aside{
+  float: right;
+  
+  position: relative;
+    width: 180px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
